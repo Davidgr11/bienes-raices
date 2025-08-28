@@ -6,15 +6,12 @@ html(lang="es")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         title Bienes Raices | #{pagina}
         link(rel="icon" type="image/svg+xml" href="/img/favicon.svg")
-        link(rel="alternate icon" type="image/x-icon" href="/img/favicon.ico")
-        // Google Fonts
-        link(rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Inter:wght@400;600&display=swap")
         block styles
         link(rel="stylesheet", href="/css/app.css")
-    body.min-h-screen.bg-gradient-to-br.from-indigo-50.to-white font-sans
+    body
         include includes/header-app
 
-        main(class="mx-auto container mt-10 px-2")
+        main
             block contenido
 
         block scripts
